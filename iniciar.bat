@@ -1,0 +1,9 @@
+@echo off
+title Bot Hierarquia
+echo Instalando dependencias...
+call npm install
+echo Registrando comando...
+node deploy.js
+echo Iniciando bot...
+node index.js
+pause

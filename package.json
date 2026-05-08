@@ -1,0 +1,15 @@
+{
+  "name": "bot-hierarquia",
+  "version": "1.0.0",
+  "description": "Bot de Hierarquia para Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node deploy.js && node index.js",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "@magicyan/discord": "^1.7.3",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.6.1"
+  }
+}
